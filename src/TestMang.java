@@ -3,5 +3,6 @@ public class TestMang {
         // Algtingimus
         // skoor
         // uus
+        // uus rida
     }
 }
