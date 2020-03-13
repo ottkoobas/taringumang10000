@@ -1,6 +1,6 @@
 public class ViskeSkoor {
-    int skoor;
-    int viske_skoor;
+    private int skoor;
+    private int viske_skoor;
 
     public int getSkoor() {
         return skoor;

@@ -1,5 +1,6 @@
 public class Mängija {
     private String nimi;
+    private boolean algtingimus;
     private int [] visketulemus = new int[5];
     private int puktideSumma;
 
@@ -8,6 +9,7 @@ public class Mängija {
         this.nimi = nimi;
         this.visketulemus = visketulemus;
         this.puktideSumma = puktideSumma;
+        algtingimus = false;
     }
 
     // tavalised meetodid
@@ -20,6 +22,8 @@ public class Mängija {
         }
     return viienevise;
     }
+
+
 
 
     //get ja set meedotid
@@ -45,5 +49,18 @@ public class Mängija {
 
     public void setPuktideSumma(int puktideSumma) {
         this.puktideSumma = puktideSumma;
+    }
+
+    public boolean isAlgtingimus() {
+        return algtingimus;
+    }
+
+    public void setAlgtingimus(boolean algtingimus) {
+        this.algtingimus = algtingimus;
+    }
+
+    @Override
+    public String toString() {
+        return nimi;
     }
 }

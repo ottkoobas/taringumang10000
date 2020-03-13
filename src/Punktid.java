@@ -1,4 +1,4 @@
-public class vise {
+public class Punktid {
     int yks = 100;
     int viis = 50;
 
