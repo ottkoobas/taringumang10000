@@ -1,4 +1,5 @@
 public class Punktid {
+    int viisik6 = 2400;
     int yks = 100;
     int viis = 50;
 
